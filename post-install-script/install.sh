@@ -11,6 +11,7 @@ sudo pacman -S --noconfirm yay
 
 # Install Flatpak
 sudo pacman -S --noconfirm flatpak
+sudo pacman -S --noconfirm obsidian
 
 # Add Flathub repository
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -19,7 +20,9 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 # flatpak install -y flathub com.visualstudio.code com.discordapp.Discord app.zen_browser.zen
 
 # Install AUR applications using yay (Uncomment if needed)
-yay -S --noconfirm visual-studio-code-bin discord zen-browser-bin
+yay -S --noconfirm visual-studio-code-bin  
+yay -S --noconfirm discord  
+yay -S --noconfirm zen-browser-bin  
 
 # Enable bluetooth service
 sudo systemctl enable bluetooth.service
