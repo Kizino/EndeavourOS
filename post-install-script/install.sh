@@ -12,8 +12,8 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 # Install essential packages
 sudo pacman -S --noconfirm curl git vim
 
-# Install Flatpak applications (example)
-flatpak install -y flathub com.spotify.Client com.visualstudio.code
+# Install Flatpak applications
+flatpak install -y flathub com.visualstudio.code
 
 # Finished
 echo "Installation complete!"
