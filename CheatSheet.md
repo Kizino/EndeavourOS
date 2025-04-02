@@ -1,7 +1,5 @@
-Certainly! Here's the markdown content you can directly copy and paste:
 
-```markdown
-# CPacman Setup
+# Pacman
 
 ## Package Updates
 
