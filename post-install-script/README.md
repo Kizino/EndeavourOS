@@ -15,6 +15,7 @@ This script automates the installation of essential packages and Flatpak on a fr
 1. Open a terminal and run the following commands:
 
    ```bash
-   curl -O https://raw.githubusercontent.com/your-username/post-install-script/main/install.sh
+   curl -O https://raw.githubusercontent.com/Kizino/EndeavourOS/master/post-install-script/install.sh
    chmod +x install.sh
    ./install.sh
+
