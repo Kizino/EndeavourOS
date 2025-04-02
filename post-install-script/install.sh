@@ -21,4 +21,8 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 # Install AUR applications using yay (Uncomment if needed)
 yay -S --noconfirm visual-studio-code-bin discord zen-browser-bin
 
+# Enable bluetooth service
+sudo systemctl enable bluetooth.service
+sudo systemctl start bluetooth.service
+
 # Finished
